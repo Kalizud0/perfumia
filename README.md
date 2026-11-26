@@ -2,7 +2,9 @@
 
 Website demonstrativo premium de uma perfumaria, com conteúdo em português brasileiro.
 
-**Acessar o site:** https://kalizud0.github.io/perfumia/
+**Acessar o site:** https://perfumia-mocha.vercel.app/
+
+Versão no GitHub Pages: https://kalizud0.github.io/perfumia/
 
 Publicado automaticamente no GitHub Pages a cada alteração em `dist/` na branch `main`.
 
@@ -32,3 +34,7 @@ A logo original não estava disponível durante a criação. A assinatura tipogr
 ## Validação
 
 Revisado visualmente com Playwright em desktop e mobile. Interações verificadas: filtros, categorias, detalhes, atendimento, sugestões, fechamento por teclado, menu mobile, ausência de overflow em cinco larguras e preferência por movimento reduzido.
+
+## Vercel
+
+Configurado em `vercel.json` para servir `dist/` sem build. Publicação manual pela CLI: `npx vercel --prod`. A publicação automática pelo GitHub depende da conexão da conta GitHub à Vercel.
