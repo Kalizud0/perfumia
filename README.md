@@ -2,6 +2,10 @@
 
 Website demonstrativo premium de uma perfumaria, com conteúdo em português brasileiro.
 
+**Acessar o site:** https://kalizud0.github.io/perfumia/
+
+Publicado automaticamente no GitHub Pages a cada alteração em `dist/` na branch `main`.
+
 ## Executar localmente
 
 Requer Python 3. Na raiz do repositório:
