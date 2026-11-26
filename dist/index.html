@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#F8F5EF"><meta name="description" content="Explore o universo PERFUMIA. Uma experiência sensorial de fragrâncias, em uma demonstração comercial com catálogo ilustrativo.">
+<title>PERFUMIA — Sua essência. Sua assinatura.</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23F8F5EF'/%3E%3Ctext x='15' y='48' font-family='Georgia' font-size='48' fill='%23C6A15B'%3EP%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"><script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#colecao">Ir para a coleção</a>
+<header class="header">
+<a class="nav-link desktop-link" href="#colecao">A coleção</a>
+<a class="brand" href="#inicio" aria-label="PERFUMIA, início">PERFUMIA</a>
+<a class="nav-link desktop-link" href="#atendimento">Atendimento</a>
+<button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button>
+<nav id="mobile-nav" aria-label="Navegação principal" hidden><a href="#colecao">A coleção</a><a href="#universo">Nosso universo</a><a href="#atendimento">Atendimento</a></nav>
+</header>
+<main>
+<section class="hero" id="inicio" aria-labelledby="hero-title">
+<picture class="hero-visual"><img src="assets/hero.webp" alt="Frasco de perfume âmbar sobre travertino, entre seda e ramos de oliveira iluminados pelo sol" fetchpriority="high" width="1536" height="1024"></picture>
+<div class="hero-content"><h1 id="hero-title">Sua essência.<br><em>Sua assinatura.</em></h1><p>Fragrâncias que revelam quem você é.</p><a class="button button-dark" href="#colecao">Descubra nossas fragrâncias</a></div>
+<div class="hero-bottom"><span>O invisível que se torna inesquecível.</span><a href="#categorias">Explore o universo PERFUMIA</a></div>
+</section>
+<section class="categories section-pad" id="categorias" aria-labelledby="categories-title">
+<div class="section-heading reveal"><p class="eyebrow">Diferentes essências. Infinitas possibilidades.</p><h2 id="categories-title">Um universo de <em>possibilidades.</em></h2></div>
+<div class="category-grid">
+<a class="category reveal" href="#colecao" data-category="masculino"><img src="assets/masculino.webp" alt="Homem com camisa de linho sob luz natural e sombras suaves" loading="lazy" width="1024" height="1280"><div><h3>Masculino</h3><span>Presença que permanece</span></div></a>
+<a class="category reveal" href="#colecao" data-category="feminino"><img src="assets/feminino.webp" alt="Mulher sentindo a luz do sol em um cenário de tons quentes" loading="lazy" width="1024" height="1280"><div><h3>Feminino</h3><span>Delicadeza que surpreende</span></div></a>
+<a class="category reveal" href="#colecao" data-category="unissex"><img src="assets/unissex.webp" alt="Perfume âmbar sobre seda e pedra natural" loading="lazy" width="1024" height="1280"><div><h3>Unissex</h3><span>Liberdade para ser você</span></div></a>
+</div>
+</section>
+<section class="collection section-pad" id="colecao" aria-labelledby="collection-title">
+<div class="collection-intro reveal"><div><p class="eyebrow">Uma descoberta pessoal</p><h2 id="collection-title">Encontre a sua <em>essência.</em></h2></div><p>Notas que despertam os sentidos.<br>Encontros que ficam na memória.</p></div>
+<div class="collection-bar"><div class="filters" role="group" aria-label="Filtrar fragrâncias"><button class="active" aria-pressed="true" data-filter="todos">Todas</button><button aria-pressed="false" data-filter="feminino">Feminino</button><button aria-pressed="false" data-filter="masculino">Masculino</button><button aria-pressed="false" data-filter="unissex">Unissex</button></div><span class="collection-count" aria-live="polite">6 fragrâncias</span></div>
+<p class="demo-caption">Seleção conceitual · Produtos e preços ilustrativos</p>
+<div class="product-grid" id="products"></div>
+</section>
+<section class="editorial" id="universo" aria-labelledby="editorial-title"><div class="editorial-image reveal"><img src="assets/editorial.webp" alt="A luz atravessa o vidro âmbar de um perfume sobre dobras de seda champagne" loading="lazy" width="1400" height="1050"></div><div class="editorial-copy reveal"><p class="eyebrow">A arte de sentir</p><h2 id="editorial-title">Mais do que<br>uma <em>fragrância.</em></h2><span class="gold-rule"></span><p>Há perfumes que nos levam a um lugar.<br>Outros, a alguém. Os mais especiais<br>nos trazem de volta a nós mesmos.</p><p>Entre a primeira nota e o que permanece na pele, existe uma história. Descubra aquela que você quer contar.</p><a class="text-link" href="#atendimento">Encontre a sua assinatura</a></div></section>
+<section class="contact section-pad" id="atendimento" aria-labelledby="contact-title"><div class="reveal"><p class="eyebrow">Uma escolha tão única quanto você</p><h2 id="contact-title">Sua próxima memória<br><em>começa aqui.</em></h2><p>Deixe suas preferências guiarem a descoberta.<br>Conheça uma nova forma de encontrar sua fragrância.</p><button class="button button-dark" data-contact>Descubra pelo WhatsApp</button><span class="contact-note">Experiência demonstrativa de atendimento personalizado</span></div></section>
+</main>
+<footer><a class="brand footer-brand" href="#inicio">PERFUMIA</a><p>Sinta. Descubra. Permaneça.</p><div class="footer-bottom"><span>© 2026 PERFUMIA · Proposta visual demonstrativa</span><span>Catálogo fictício. Sem vendas ou atendimento real.</span><a href="#inicio">Voltar ao início</a></div></footer>
+<dialog id="product-dialog" aria-labelledby="product-title"><button class="dialog-close" aria-label="Fechar detalhes">×</button><div id="product-detail"></div></dialog>
+<dialog id="contact-dialog" aria-labelledby="contact-dialog-title"><button class="dialog-close" aria-label="Fechar atendimento">×</button><div class="contact-dialog-inner"><p class="eyebrow">Atendimento personalizado</p><h2 id="contact-dialog-title">Vamos encontrar<br>a sua <em>essência?</em></h2><p>Como você gostaria de se sentir?</p><div class="scent-options" role="group" aria-label="Preferência de fragrância"><button aria-pressed="false" data-scent="frescas">Leve e fresco</button><button aria-pressed="false" data-scent="florais">Delicado e floral</button><button aria-pressed="false" data-scent="amadeiradas">Intenso e envolvente</button></div><p id="scent-response" role="status">Escolha uma sensação para receber uma sugestão.</p><p class="demo-message">Este é um atendimento demonstrativo. Na versão da loja, esta experiência poderá conectar você ao WhatsApp oficial. Nenhuma mensagem será enviada.</p></div></dialog>
+</body></html>
